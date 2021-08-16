@@ -27,3 +27,21 @@ html {
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
+
+.comp-content, .comp-subplan, .comp-btn {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+}
+
+.comp-content h1 {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+    margin: 18px 0px;
+}
+
+.comp-content p {
+    font-weight: 500;
+    line-height: 1.7;
+}
