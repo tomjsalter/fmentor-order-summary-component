@@ -29,8 +29,8 @@ html {
 }
 
 .comp-content, .comp-subplan, .comp-btn {
-    padding-left: 25px;
-    padding-right: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
     margin-bottom: 25px;
 }
 
@@ -38,10 +38,43 @@ html {
     font-size: 1.4em;
     font-weight: 700;
     color: hsl(223, 47%, 23%);
-    margin: 18px 0px;
+    margin-top: 18px;
+    margin-bottom: 18px;
 }
 
 .comp-content p {
     font-weight: 500;
     line-height: 1.7;
+}
+
+.comp-subplan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.comp-subplan h2 {
+    color: hsl(223, 47%, 23%);
+    font-size: 0.98em;
+    line-height: 1.5;
+}
+
+.comp-subplan p {
+    font-size: 0.94em;
+}
+
+.comp-subplan a {
+    font-size: 0.94em;
+}
+
+.subplan-flexitem {
+    text-align: left;
+}
+
+.subplan-icon {
+    width: 50px;
+    height: 50px;
 }
