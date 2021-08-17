@@ -18,14 +18,14 @@ html {
     flex-direction: column;
     background-color: white;
     border-radius: 20px;
-    max-width: 325px;
+    max-width: 326px;
     margin: 25px auto;
     box-shadow: 0 16px 24px 4px hsla(245, 79%, 24%, 0.14);
 }
 
 .comp-head img {
-    width: 325px;
-    height: 150px;
+    width: 326px;
+    height: 160px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
@@ -100,7 +100,7 @@ html {
 .comp-btn button {
     border-radius: 10px;
     border: none;
-    padding: 12px;
+    padding: 15px;
     background-color: hsl(245, 75%, 52%);
     font-size: 0.95em;
     font-weight: 700;
