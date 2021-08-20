@@ -122,7 +122,10 @@ html {
 
 /* DESKTOP SCREEN WIDTH */
 @media only screen and (min-width: 1200px) {
-    .component {
-        max-width: 440px;
+    .component, .comp-head img {
+        min-width: 440px;
+    }
+    .comp-head img {
+        height: 215px;
     }
 }
