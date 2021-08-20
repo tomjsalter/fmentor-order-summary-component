@@ -118,3 +118,11 @@ html {
    color: hsl(224, 23%, 55%); 
    text-decoration: none;
 }
+
+
+/* DESKTOP SCREEN WIDTH */
+@media only screen and (min-width: 1200px) {
+    .component {
+        max-width: 440px;
+    }
+}
