@@ -179,5 +179,21 @@ html {
     }
 
     /* ACTIVE STATES */
-    
+    .comp-subplan a:hover {
+        color: hsla(245, 75%, 52%, 0.6);
+        text-decoration: none;
+    }
+
+    .comp-btn button:hover {
+        background-color: hsla(245, 75%, 52%, 0.6);
+    }
+
+    .comp-btn button a:hover {
+        color: white;
+    }
+
+    .comp-btn a:hover {
+        color: hsl(223, 47%, 23%);; 
+}
+
 }
