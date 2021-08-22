@@ -125,7 +125,42 @@ html {
     .component, .comp-head img {
         min-width: 440px;
     }
+    
     .comp-head img {
         height: 215px;
+    }
+
+    .comp-content, .comp-subplan, .comp-btn {
+    margin-left: 48px;
+    margin-right: 48px;
+    }
+
+    .comp-content h1 {
+        font-size: 1.8em;
+        margin-top: 32px;
+    }
+
+    .comp-content p {
+        font-size: 1.02em;
+    }
+
+    .comp-subplan {
+        padding: 22px 20px;
+    }
+
+    .subplan-flexitem {
+        right: 38px;
+    }
+
+    .comp-subplan h2 {
+        font-size: 1.05em;
+    }
+
+    .comp-subplan p {
+        font-size: 1.05em;
+    }
+
+    .comp-subplan a {
+        font-size: 0.9em;
     }
 }
