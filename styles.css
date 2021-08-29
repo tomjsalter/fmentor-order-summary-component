@@ -13,6 +13,7 @@ html {
     background-color: hsl(225, 100%, 94%);
 }
 
+
 .component {
     display: flex;
     flex-direction: column;
@@ -97,9 +98,11 @@ html {
     margin-bottom: 30px;
 }
 
-.comp-btn button {
+.proceedbtn {
     border-radius: 10px;
     border: none;
+    color: white;
+    text-decoration: none;
     padding: 15px;
     background-color: hsl(245, 75%, 52%);
     font-size: 0.95em;
@@ -108,11 +111,7 @@ html {
     box-shadow: 0 11px 14px 4px hsla(245, 75%, 52%, 0.2);
 }
 
-.comp-btn button a {
-    color: white;
-}
-
-.comp-btn a {
+.cancelbtn {
    font-size: 0.97em;
    font-weight: 700;
    color: hsl(224, 23%, 55%); 
@@ -184,16 +183,13 @@ html {
         text-decoration: none;
     }
 
-    .comp-btn button:hover {
+    .proceedbtn:hover {
         background-color: hsla(245, 75%, 52%, 0.6);
-    }
-
-    .comp-btn button a:hover {
         color: white;
     }
 
-    .comp-btn a:hover {
+    .cancelbtn:hover {
         color: hsl(223, 47%, 23%);; 
-}
+    }
 
 }
