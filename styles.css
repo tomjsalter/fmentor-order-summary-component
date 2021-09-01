@@ -13,6 +13,9 @@ html {
     background-color: hsl(225, 100%, 94%);
 }
 
+.bgimg-mob {
+    z-index: 0;
+}
 
 .component {
     display: flex;
