@@ -128,6 +128,14 @@ body {
 
 /* DESKTOP SCREEN WIDTH */
 @media only screen and (min-width: 1200px) {
+    body {
+    background-image: url(images/pattern-background-desktop.svg);
+    }
+
+    .component {
+        top: 108px;
+    }
+    
     .component, .comp-head img {
         min-width: 440px;
     }
